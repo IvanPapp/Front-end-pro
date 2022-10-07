@@ -2,11 +2,30 @@ body {
     background-image: url("BalatonMedia/back.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size:cover;
     
 }
     .torzs {
+
         width: 1000px;
-        height: 600px;        
+        height: 600px;  
+        text-align: center;
+        padding:0% 10% 0% 15%;
+
+    }
+
+    header {
+        background-image: url("BalatonMedia/panorama.jpg");
+        background-size: 1000px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .cim {
+        padding-left: 250px;
+        padding-top: 5px;
     }
     
     
