@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-right: 25px;
     
 }
     .torzs {
@@ -76,5 +77,4 @@ body {
     .jobb {
         padding-left: 5px;
     }
-    
-    
+        
