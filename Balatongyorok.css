@@ -2,7 +2,7 @@ body {
     background-image: url("BalatonMedia/back.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     
 }
     .torzs {
@@ -44,7 +44,7 @@ body {
         background-color: #B0D1F1;
     }
     .tabla1, .tabla2 {
-        padding: 0px 20px 25px 10px;
+        padding: 0px 20px 25px 20px;
         text-align: left;
         width: 450px;
         display: inline-block;
@@ -54,9 +54,10 @@ body {
     }
     .tabla2 {
         float: right;
-            }
+                    }
     .tabla1 {
-        
+        margin-right: 10px;
+                
     }
     .link {
         padding-top: 10px;
@@ -67,6 +68,13 @@ body {
     }
     td {
         padding: 4px 0px 4px 0px;
+    }
+    .bal {
+        text-align: center;
+        font-weight: 600;
+    }
+    .jobb {
+        padding-left: 5px;
     }
     
     
