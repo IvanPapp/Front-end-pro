@@ -20,8 +20,6 @@ body {
         height: 200px;
         background-repeat: no-repeat;
         background-position: center;
-    
-
     }
 
     .cim {
@@ -40,6 +38,35 @@ body {
         padding-left: 20px;
     }      
     
-    .tabla1 
+   table, tr, th, td {
+        border:2px solid black ;
+        border-collapse: collapse;
+        background-color: #B0D1F1;
+    }
+    .tabla1, .tabla2 {
+        padding: 0px 20px 25px 10px;
+        text-align: left;
+        width: 450px;
+        display: inline-block;
+        border: 0px none none;
+        background-color: #5B9CEA ;
+        
+    }
+    .tabla2 {
+        float: right;
+            }
+    .tabla1 {
+        
+    }
+    .link {
+        padding-top: 10px;
+    }
+    
+    th {
+        text-align: center;
+    }
+    td {
+        padding: 4px 0px 4px 0px;
+    }
     
     
