@@ -10,3 +10,4 @@
 # 7mentes
 # 8mentes
 # 9mentes
+# kesz
