@@ -20,6 +20,7 @@ body {
         height: 200px;
         background-repeat: no-repeat;
         background-position: center;
+    
 
     }
 
@@ -27,5 +28,10 @@ body {
         padding-left: 250px;
         padding-top: 5px;
     }
+
+    .cimer {
+        float: right;
+    
+            }
     
     
