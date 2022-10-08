@@ -3,15 +3,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-right: 25px;
+    margin: 0 auto;
     
 }
     .torzs {
 
         width: 1000px;
-        height: 600px;  
-        text-align: center;
-        padding:0% 10% 0% 15%;
+        height: auto;
+        margin: 0 auto;
 
     }
 
@@ -19,6 +18,7 @@ body {
         background-image: url("BalatonMedia/panorama.jpg");
         background-size: 1000px;
         height: 200px;
+        
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -30,7 +30,7 @@ body {
 
     .cimer {
         float: right;
-    padding: 10px 280px 0px 0px;
+        padding: 10px 280px 0px 0px;
             }
 
     p {
@@ -57,12 +57,10 @@ body {
         float: right;
                     }
     .tabla1 {
-        margin-right: 10px;
-                
+        float: left;
+        margin-right: 10px;           
     }
-    /* h2 {
-        padding-top: 50px;
-    } */
+    
     .link {
         padding-top: 10px;
     }
