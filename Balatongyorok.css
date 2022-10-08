@@ -15,23 +15,25 @@ body {
     }
 
     header {
-        background-image: url("BalatonMedia/panorama.jpg");
-        background-size: 1000px;
+        background-image: url("BalatonMedia/cimer.jpg"), url("BalatonMedia/panorama.jpg"); 
+        background-size: 180px,1000px;
         height: 200px;
-        
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 1000px,center;
+        
+        
     }
 
     .cim {
-        padding-left: 250px;
+        padding-left: 260px;
         padding-top: 5px;
     }
-
+    
+/* 
     .cimer {
         float: right;
         padding: 10px 280px 0px 0px;
-            }
+            } */
 
     p {
         text-align: left;
