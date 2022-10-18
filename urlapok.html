@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minta űrlap</title>
+    <link rel="stylesheet" href="./urlap.css">
+</head>
+<body>
+    <div class="keret">
+        <form action="urlapok.html">
+            <h1>Egyszerű űrlap</h1>
+            <div>
+                <label for="nev">Név:</label>
+                <input type="text" name="nev" id="nev">
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div>
+                <input type="checkbox" name="hirlevel" id="hirlevel">
+                <label for="hirlevel">Szeretnék értesülni az újdonságokról.</label>
+            </div>
+            <div>
+                <input type="checkbox" name="szabalyzat" id="szabalyzat">
+                <label for="szabalyzat">Elfogadom a szabályzatot</label>
+            </div>
+            <p>Egyéb levelet is elfogadok:</p>
+            <div>
+                <input type="radio" name="level" id="igen">
+                <label for="igen">Igen</label>
+            </div>
+            <div>
+                <input type="radio" name="level" id="nem">
+                <label for="igen">Nem</label>
+            </div>
+            <div>
+               <p>Megjegyzés:</p>
+                <textarea name="megjegyzes" id="megjegyzes" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>    
+</body>
+</html>

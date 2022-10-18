@@ -10,7 +10,7 @@ body {
 
         width: 1000px;
         height: auto;
-        margin: 0 auto;
+        margin: auto;
 
     }
 
@@ -55,6 +55,7 @@ body {
         display: inline-block;
         border: 0px none none;
         background-color: #5B9CEA ;
+        margin-bottom: 20px;
         
     }
     .tabla2 {
@@ -82,4 +83,18 @@ body {
     .jobb {
         padding-left: 5px;
     }
+
+    footer {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
         
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        background-color: aqua;
+    }
+    

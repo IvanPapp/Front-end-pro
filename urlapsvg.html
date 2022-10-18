@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elégedettségi kérdőív</title>
+    <link rel="stylesheet" href="svg.css">
+</head>
+
+<body>
+    <div class="body">
+    <header>
+        <svg width="800" height="170">
+            <defs>
+                <linearGradient id="atmenet" x1="0%" x2="100%" y1="10%" y2="80%">
+                    <stop offset="10%" style="stop-color: rgb(188, 151, 18) ; stop-opacity: 0.7"/>
+                    <stop offset="90%" style="stop-color: rgb(128, 68, 0) ; stop-opacity: 0.2"/>
+                </linearGradient>
+            </defs>
+            <ellipse cx="400" cy="100" rx="400" ry="70" fill="url(#atmenet)" />
+            <text x="300" y="120" fill="rgb(128, 68, 0)" style="font-size: 60px;  text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Kérdőív</text>
+        </svg>
+                    <p class="udv">
+                    Köszönjük, hogy megtisztelt bizalmával és igénybe vette szolgáltatásainkat! <br>
+                    Kérjük töltse ki rövid felmérésünket, hogy kellemesebbé tehessük az időt, 
+                    amit nálunk tölt!
+                </p>
+    </header>
+
+    <form action="urlapsvg.html">
+        <div class="nev">
+            <label for="veznev">Vezetéknév</label>
+            <input type="text" name="veznev" id="veznev">
+        </div>
+        <div class="nev2">    
+            <label for="kernev">Keresztnév</label>
+            <input type="text" name="kernev" id="kernev">
+        </div>
+
+        <div class="datum">
+            <label for="szul">Születési dátum</label>
+            <input type="date" name="szul" id="szul">
+        </div>
+            <div class="mail">
+            <label for="email">E-mail cím</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="eleg">
+            <p class="szoveg"> Mennyire elégedett a szolgáltatásunk minőségével? (1:egyáltalán nem 10:Maximálisan elégedett)</p>
+            <div id="radio">
+            <input type="radio" name="eleg" id="r1">
+            <label for="r2">1</label>
+            <input type="radio" name="eleg" id="r2">
+            <label for="r3">2</label>
+            <input type="radio" name="eleg" id="r3">
+            <label for="r4">3</label>
+            <input type="radio" name="eleg" id="r4">
+            <label for="r5">4</label>
+            <input type="radio" name="eleg" id="r5">
+            <label for="r6">5</label>
+            <input type="radio" name="eleg" id="r6">
+            <label for="r7">6</label>
+            <input type="radio" name="eleg" id="r7">
+            <label for="r7">7</label>
+            <input type="radio" name="eleg" id="r8">
+            <label for="r8">8</label>
+            <input type="radio" name="eleg" id="r9">
+            <label for="r9">9</label>
+            <input type="radio" name="eleg" id="r10">
+            <label for="r10">10</label>
+            </div>
+        </div>
+    
+        <p class="szoveg">Elégedett volt kollégáink hozzáállásával?</p>
+        <div class="kiszolg">
+            <label for="igen">Elégedett voltam</label>
+            <input type="radio" name="eleg" id="igen">
+            <div id="no">
+                <label for="nem">Nem voltam elégedett</label>
+                <input type="radio" name="eleg" id="nem">
+            </div>
+        </div>
+
+        <p class="szoveg">Mely szolgáltatásainkat ajánlaná ismerőseinek?</p>
+
+        <div class="ajanlo">
+            <!-- <div id="mas"> -->
+            <label for="massz" id="mas">Vezetett túra</label>
+            <input type="checkbox" name="massz" id="massz">
+           <!--  </div>
+            <div id="ped"> -->
+            <label for="pedi" id="ped">Távolbanézés</label>
+            <input type="checkbox" name="pedi" id="pedi">
+            <!-- </div>
+            <div id="szol"> -->
+            <label for="szoli" id="szol">Sorbanállás</label>
+            <input type="checkbox" name="szoli" id="szoli">
+           <!--  </div> -->
+        </div>
+
+        <div class="valt">
+            <p class="szoveg">Mi az amin változtatna a nálunk tapasztaltak alapján?</p>
+            <textarea name="valt" id="valt" cols="100" rows="10"></textarea>
+        </div>
+
+        <div class="aszf">
+            <input type="checkbox" name="aszf" id="aszf">
+            <label for="aszf">Elfogadom az <a href="http://www.aszf.hu"> ÁSZF-et</a></label>
+        </div>
+        <div class="hir">
+            <input type="checkbox" name="hir" id="hir">
+            <label for="hir">Feliratkozom a hírlevélre</label>
+        </div>
+        
+        <div class="send">
+            <input type="button" value="Küldés" id="kuld">
+        </div>
+        <div class="reset">
+            <input type="reset" value="Mezők törlése" id="res">
+        </div>
+    </form>
+    <footer>
+
+        <svg width="800" height="200">
+            
+            <defs>
+                <linearGradient id="atmenet2" x1="30%" x2="70%" y1="0%" y2="0%">
+                    <stop offset="10%" style="stop-color: rgb(209, 157, 44) ; stop-opacity: 0.7;" />
+                    <stop offset="50%" style="stop-color: bisque ; stop-opacity: 0.7;" />
+                    <stop offset="80%" style="stop-color: rgb(172, 182, 64) ; stop-opacity: 0.7;" />
+                </linearGradient>
+            </defs>
+
+            <polygon points="0,100 400,50 800,100 400,150" fill="url(#atmenet2)" stroke="brown" stroke-width="1" stroke-dasharray="1.5"></polygon>
+                <text x="300" y="115" fill="black" style="font-size: 40px;  text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Köszönjük!  </text>
+            </svg>
+    </footer>    
+    </div>
+</body>
+</html>

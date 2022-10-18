@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>
+                Űrlapok
+            </h1>
+        </header>
+        <div class="urlap">
+            <form action="index.html">
+                <div>
+                    <label for="szöveg">Név:</label>
+                </div>
+                <div>
+                    <input type="text" name="szöveg" id="szöveg">
+                </div>
+                <input type="button" value="OK">
+                <div>
+                    <input type="radio" name="választ" id="választ">
+                    <label for="választ">html</label>
+                <div>
+                    <input type="radio" name="választ" id="css">
+                    <label for="választ">css</label>
+                </div>
+                <div>
+                    <input type="radio" name="választ" id="JS">
+                    <label for="választ">JS</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="jelolo" id="jelolo">
+                    <label for="jelolo">html</label>
+                </div>
+                <fieldset>
+                    <legend>csoportosítottunk
+                    </legend>
+                    <div>
+                        <input type="checkbox" name="jelolo" id="css1" disabled>
+                        <label for="jelolo">css</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="jelolo" id="JS1">
+                        <label for="jelolo">JS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="jelolo" id="php">
+                        <label for="jelolo">PHP</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Küldés">
+                    </div>
+                </fieldset>
+                    <div>
+                        <div>
+                        <label for="lista">válassz!
+                        </label>
+                        </div>
+                        <select name="lista" id="lista">
+                            <option value="html">html</option>
+                            <option value="css">css</option>
+                            <option value="JS">JS</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="szoveg" id="szoveg" cols="50" rows="8"></textarea>
+                    </div>
+                <div>
+                    <input list="bongeszo">
+                    <datalist id="bongeszo">
+                        <option value="IE"></option>
+                        <option value="Firefox"></option>
+                    </datalist>
+                    <input type="password" name="jelszo" id="jelszo">
+                    <input type="color" name="szinek" id="szinek">
+                    <input type="date" name="datum" id="datum">
+                    <input type="file" name="file" id="file">
+                </div>
+            </div>
+
+            </form>
+    </div>
+    
+</body>
+</html>

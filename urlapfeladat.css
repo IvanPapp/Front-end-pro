@@ -1,0 +1,18 @@
+.keret {
+    width: 450px;
+    margin: auto;
+    }
+
+
+h1 {
+    text-align: center;
+}
+
+.nev1 {
+    width: 200px;
+    float: left;
+}
+.nev2 {
+    width: 200px;
+    float: right;
+}

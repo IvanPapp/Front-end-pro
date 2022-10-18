@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./urlapfeladat.css">
+</head>
+<body>
+    <div class="keret">
+        <form action="urlapfeladat.html">
+            <h1>Regisztráció</h1>
+            <div>
+                <p>Megszólítás:</p>
+            </div>
+            <div>  
+                <input type="radio" name="nemek" id="holgy">
+                <label for="holgy">Úrhölgy</label>
+                <input type="radio" name="nemek" id="ur">
+                <label for="ur">Úr</label> 
+            </div>
+           <div class="nev1">
+                <p>Vezetéknév</p>
+                <input type="text" name="vezetek" id="vezetek">
+           </div>
+            <div class="nev2">
+                <p>Keresztnév</p>
+                <input type="text" name="kereszt" id="kereszt">
+           </div>
+           <div>
+                <p>Születési dátum</p>
+                <input type="date" name="szul " id="szul">
+           </div>
+           <div class="mail1">
+                <p>E-mail cím</p>
+                <input type="email" name="mail1" id="mail1">
+           </div>
+           <div class="mail2">
+                <p>E-mail cím ismételt megadása</p>
+                <input type="email" name="mail2" id="mail2">
+           </div>
+           <div class="jelszo">
+                <p>Jelszó</p>
+                <input type="password" name="jelszo" id="jelszo">    
+           </div>
+           <div class="jelszo2">
+                <p>Jelszó ismételt megadása</p>
+                <input type="password" name="jelszo2" id="jelszo2">
+           </div>
+           <div>
+            <p> - Kötelező mezők</p>
+           </div>
+           <div>
+                <input type="checkbox" name="elfogad" id="elfogad">
+                <label for="elfogad">Tudomásul vettem és elfogadom az <a href="aszf.html"> ASZF</a>-et, valalmint az Adatkezelési tájékoztatóban foglaltakat</label>
+           </div>
+           <div>
+            <input type="checkbox" name="hirlvele" id="hirlevel">
+            <label for="hirlevel">Szeretnék feliratkozni A dm Hirlevelem-re.A hírlevélről bármikor leiratkozhatok.
+                                A <a href="hirlvel.html">Hozzájárulás a dm hírlevélhez</a> -t elolvastam és elfogadom.
+            </label>
+           </div>
+           <div>
+            <input type="button" value="Tovább">
+           </div>
+        </form>
+    </div>   
+</body>
+</html>
